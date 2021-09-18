@@ -1,0 +1,14 @@
+{
+  "ModeLight": {
+    "Icons": "#000",
+    "Header": "#fff",
+    "background": "#fff",
+    "letter": "#fff"
+  },
+  "ModeDark": {
+    "Icons": "#fff",
+    "Header": "#000",
+    "background": "#000",
+    "letter": "#fff"
+  }
+}

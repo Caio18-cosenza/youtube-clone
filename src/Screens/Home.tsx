@@ -309,7 +309,7 @@ export default function Home() {
           //   <Text> {item.snippet.title} </Text>
           // </View>
         )}
-        
+        keyExtractor={(item) => item.id}
       />
     </ScrollView>
   );

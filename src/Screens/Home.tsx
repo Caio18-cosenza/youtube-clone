@@ -57,7 +57,7 @@ export default function Home() {
       ).then((res) => res.json().then((json) => setDataChannel(json.items)));
     }
     loadingApiChannel();
-  }, );
+  }, []);
 
   function convert_time(duration: any) {
     let res = duration.replace('PT', '');

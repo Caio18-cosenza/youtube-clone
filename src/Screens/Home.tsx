@@ -46,7 +46,7 @@ export default function Home() {
             let resposta = convert_time(j.contentDetails.duration);
           });
         })
-      );
+      ).catch();
     }
     loadingApiVideo();
     async function loadingApiChannel() {

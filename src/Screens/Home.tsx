@@ -42,8 +42,10 @@ export default function Home() {
         res.json().then((json) => {
           setData(json.items);
           // let resposta = convert_time(json.items.contentDetails.duration);
+          // console.log(resposta)
           data.map((j) => {
             let resposta = convert_time(j.contentDetails.duration);
+            console.log(resposta)
           });
         })
       );
